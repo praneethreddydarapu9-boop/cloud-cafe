@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Café | Taste That Feels Like Heaven</title>
+    <meta name="description" content="Experience a cozy vibe, relaxing environment, and high-quality food at Cloud Café.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="loader" class="loader">
+        <div class="cloud"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#home">☁️ Cloud Café</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#location">Contact</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">🌙</button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <h1>Welcome to Cloud Café</h1>
+            <p class="tagline">Taste That Feels Like Heaven</p>
+            <a href="#menu" class="btn primary-btn">View Menu</a>
+        </div>
+        <div class="cloud-bg"></div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section container py-5">
+        <div class="section-title fade-in">
+            <h2>Our Cloudy Menu</h2>
+            <p>Hand-crafted with love</p>
+        </div>
+
+        <div class="menu-grid">
+            <!-- Category: Fries -->
+            <div class="menu-category fade-in">
+                <h3>🍟 Fries</h3>
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80')"></div>
+                        <div class="card-content">
+                            <h4>Peri Peri Fries</h4>
+                            <p class="price">₹149</p>
+                            <button class="btn secondary-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1630431341973-02e1b662cebc?auto=format&fit=crop&w=500&q=80')"></div>
+                        <div class="card-content">
+                            <h4>Cheese Fries</h4>
+                            <p class="price">₹179</p>
+                            <button class="btn secondary-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Shakes -->
+            <div class="menu-category fade-in">
+                <h3>🥤 Shakes</h3>
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80')"></div>
+                        <div class="card-content">
+                            <h4>Chocolate Shake</h4>
+                            <p class="price">₹199</p>
+                            <button class="btn secondary-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=500&q=80')"></div>
+                        <div class="card-content">
+                            <h4>Oreo Shake</h4>
+                            <p class="price">₹219</p>
+                            <button class="btn secondary-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1553787762-b5f52896ec9c?auto=format&fit=crop&w=500&q=80')"></div>
+                        <div class="card-content">
+                            <h4>Strawberry Shake</h4>
+                            <p class="price">₹189</p>
+                            <button class="btn secondary-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category: Pizzas -->
+            <div class="menu-category fade-in">
+                <h3>🍕 Pizzas</h3>
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=80')"></div>
+                        <div class="card-content">
+                            <h4>Margherita</h4>
+                            <p class="price">₹299</p>
+                            <button class="btn secondary-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80')"></div>
+                        <div class="card-content">
+                            <h4>Farmhouse</h4>
+                            <p class="price">₹349</p>
+                            <button class="btn secondary-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=500&q=80')"></div>
+                        <div class="card-content">
+                            <h4>Pepperoni</h4>
+                            <p class="price">₹399</p>
+                            <button class="btn secondary-btn">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section container py-5">
+        <div class="section-title fade-in">
+            <h2>Our Gallery</h2>
+            <p>A sneak peek into our cloud</p>
+        </div>
+        <div class="gallery-grid fade-in">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=500&q=80" alt="Coffee art"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80" alt="Cafe view"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=500&q=80" alt="Beverage"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1445116572660-236099ac9f4d?auto=format&fit=crop&w=500&q=80" alt="Dining table"></div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container fade-in">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>It all began with a simple idea: Create a place where the atmosphere is as light and uplifting as a cloud floating in the sky. At Cloud Café, we believe that great food and a relaxing environment go hand in hand.</p>
+                    <p>From the moment you walk through our doors, you'll be greeted by our cozy vibe and soft music, providing the perfect escape from the bustling city. Our ingredients are locally sourced and our recipes have been crafted to ensure that every bite is truly a taste of heaven.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80" alt="Cozy Café Interior" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact Section -->
+    <section id="location" class="location-section container py-5 fade-in">
+        <div class="section-title">
+            <h2>Find Us</h2>
+            <p>Visit our little piece of heaven</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="info-item">
+                    <span class="icon">📍</span>
+                    <div>
+                        <h4>Address</h4>
+                        <p>RK Beach Road, Visakhapatnam,<br>Andhra Pradesh, India</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">📞</span>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">✉️</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hello@cloudcafe.in</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="icon">🕒</span>
+                    <div>
+                        <h4>Hours</h4>
+                        <p>Mon - Sun: 10:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container">
+                <!-- Simple Map Placeholder without API -->
+                <div class="map-placeholder">
+                    <span>🗺️ Map View of RK Beach Road</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Experience Section -->
+    <section id="reviews" class="reviews-section py-5">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Customer Experience</h2>
+                <p>We'd love to hear about your experience!</p>
+            </div>
+            
+            <div class="reviews-layout">
+                <!-- Review Form -->
+                <div class="review-form-container fade-in">
+                    <h3>Leave a Review</h3>
+                    <form id="review-form">
+                        <div class="form-group">
+                            <label for="reviewer-name">Your Name</label>
+                            <input type="text" id="reviewer-name" placeholder="John Doe" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Your Rating</label>
+                            <div class="star-rating">
+                                <input type="radio" id="star5" name="rating" value="5" required/><label for="star5" title="5 stars">★</label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 stars">★</label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 stars">★</label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 stars">★</label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 star">★</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="review-message">Your Message</label>
+                            <textarea id="review-message" rows="4" placeholder="Tell us about the heavenly food..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn w-100">Submit Review</button>
+                    </form>
+                </div>
+
+                <!-- Display Reviews -->
+                <div class="reviews-list-container fade-in">
+                    <h3>Recent Reviews</h3>
+                    <div id="reviews-list">
+                        <!-- Default placeholder review -->
+                        <div class="review-card">
+                            <div class="review-header">
+                                <strong>Aditi S.</strong>
+                                <span class="stars">★★★★★</span>
+                            </div>
+                            <p class="review-text">"Absolutely loved the vibe here! The Peri Peri Fries are out of this world, and the relaxing music just made my evening. Will visit again!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Newsletter Subscription -->
+        <div class="newsletter-section container fade-in">
+            <h3>Join the Cloud Club</h3>
+            <p>Subscribe for exclusive offers and updates!</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required />
+                <button type="submit" class="btn primary-btn">Subscribe</button>
+            </form>
+        </div>
+
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>☁️ Cloud Café</h3>
+                <p>A relaxing cafe serving joy with every order.</p>
+            </div>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Instagram">📸</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cloud Café. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
